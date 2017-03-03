@@ -8,7 +8,7 @@ import AlbumList from './src/components/AlbumList';
 class Albums extends Component {
   render() {
     return (
-        <View>
+        <View style={{ flex: 1 }}>
           <AlbumList></AlbumList>
         </View>
       
